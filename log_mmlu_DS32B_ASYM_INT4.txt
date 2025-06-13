@@ -1764,3 +1764,569 @@ INFO 06-13 12:29:07 [__init__.py:239] Automatically detected platform xpu.
 Processed prompts:   3%|▎         | 1573/56168 [10:01<5:12:17,  2.91it/s, est. speed input: 1265.70 toks/s, output: 2.61 toks/s][A
 Processed prompts:   3%|▎         | 1574/56168 [10:01<5:10:14,  2.93it/s, est. speed input: 1265.64 toks/s, output: 2.61 toks/s][A
 Processed prompts:   3%|▎         | 1575/56168 [10:02<5:11:26,  2.92it/s, est. speed input: 1265.56 toks/s, output: 2.61 toks/s][A
+Processed prompts:   3%|▎         | 1576/56168 [10:02<5:10:30,  2.93it/s, est. speed input: 1265.49 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1577/56168 [10:03<5:12:18,  2.91it/s, est. speed input: 1265.40 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1578/56168 [10:03<5:12:07,  2.91it/s, est. speed input: 1265.32 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1579/56168 [10:03<5:10:34,  2.93it/s, est. speed input: 1265.26 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1580/56168 [10:04<5:11:02,  2.92it/s, est. speed input: 1265.18 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1581/56168 [10:04<5:11:39,  2.92it/s, est. speed input: 1265.10 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1582/56168 [10:04<5:10:19,  2.93it/s, est. speed input: 1265.03 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1583/56168 [10:05<5:09:10,  2.94it/s, est. speed input: 1264.97 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1584/56168 [10:05<5:09:45,  2.94it/s, est. speed input: 1264.89 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1585/56168 [10:05<5:11:04,  2.92it/s, est. speed input: 1264.81 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1586/56168 [10:06<5:10:49,  2.93it/s, est. speed input: 1264.73 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1587/56168 [10:06<5:12:08,  2.91it/s, est. speed input: 1264.65 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1588/56168 [10:06<5:12:10,  2.91it/s, est. speed input: 1264.57 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1589/56168 [10:07<5:10:44,  2.93it/s, est. speed input: 1264.50 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1590/56168 [10:07<5:10:33,  2.93it/s, est. speed input: 1264.43 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1591/56168 [10:07<5:10:56,  2.93it/s, est. speed input: 1264.35 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1592/56168 [10:08<5:11:20,  2.92it/s, est. speed input: 1264.27 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1593/56168 [10:08<5:12:52,  2.91it/s, est. speed input: 1264.18 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1594/56168 [10:08<5:13:17,  2.90it/s, est. speed input: 1264.09 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1595/56168 [10:09<5:12:38,  2.91it/s, est. speed input: 1264.02 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1596/56168 [10:09<5:12:17,  2.91it/s, est. speed input: 1263.94 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1597/56168 [10:09<5:10:39,  2.93it/s, est. speed input: 1263.87 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1598/56168 [10:10<5:09:09,  2.94it/s, est. speed input: 1263.80 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1599/56168 [10:10<5:08:34,  2.95it/s, est. speed input: 1263.74 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1600/56168 [10:10<5:08:08,  2.95it/s, est. speed input: 1263.67 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1601/56168 [10:11<5:11:36,  2.92it/s, est. speed input: 1263.57 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1602/56168 [10:11<5:03:57,  2.99it/s, est. speed input: 1263.55 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1603/56168 [10:11<4:59:48,  3.03it/s, est. speed input: 1263.51 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1604/56168 [10:12<4:56:27,  3.07it/s, est. speed input: 1263.49 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1605/56168 [10:12<4:55:51,  3.07it/s, est. speed input: 1263.44 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1606/56168 [10:12<4:53:23,  3.10it/s, est. speed input: 1263.42 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1607/56168 [10:13<4:52:30,  3.11it/s, est. speed input: 1263.38 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1608/56168 [10:13<4:51:45,  3.12it/s, est. speed input: 1263.35 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1609/56168 [10:13<4:50:16,  3.13it/s, est. speed input: 1263.33 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1610/56168 [10:14<4:49:31,  3.14it/s, est. speed input: 1263.30 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1611/56168 [10:14<4:48:02,  3.16it/s, est. speed input: 1263.28 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1612/56168 [10:14<4:47:39,  3.16it/s, est. speed input: 1263.25 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1613/56168 [10:15<4:48:20,  3.15it/s, est. speed input: 1263.22 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1614/56168 [10:15<4:48:33,  3.15it/s, est. speed input: 1263.19 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1615/56168 [10:15<4:48:19,  3.15it/s, est. speed input: 1263.16 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1616/56168 [10:15<4:46:41,  3.17it/s, est. speed input: 1263.14 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1617/56168 [10:16<4:45:17,  3.19it/s, est. speed input: 1263.12 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1618/56168 [10:16<4:44:49,  3.19it/s, est. speed input: 1263.10 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1619/56168 [10:16<4:45:25,  3.19it/s, est. speed input: 1263.08 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1620/56168 [10:17<4:46:55,  3.17it/s, est. speed input: 1263.04 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1621/56168 [10:17<4:47:17,  3.16it/s, est. speed input: 1263.01 toks/s, output: 2.62 toks/s][A
+Processed prompts:   3%|▎         | 1622/56168 [10:17<4:45:24,  3.19it/s, est. speed input: 1263.00 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1623/56168 [10:18<4:43:43,  3.20it/s, est. speed input: 1262.99 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1624/56168 [10:18<4:45:45,  3.18it/s, est. speed input: 1262.95 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1625/56168 [10:18<4:46:19,  3.17it/s, est. speed input: 1262.93 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1626/56168 [10:19<4:46:28,  3.17it/s, est. speed input: 1262.90 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1627/56168 [10:19<4:46:43,  3.17it/s, est. speed input: 1262.87 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1628/56168 [10:19<4:44:32,  3.19it/s, est. speed input: 1262.86 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1629/56168 [10:20<4:44:26,  3.20it/s, est. speed input: 1262.84 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1630/56168 [10:20<4:45:19,  3.19it/s, est. speed input: 1262.81 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1631/56168 [10:20<4:45:55,  3.18it/s, est. speed input: 1262.78 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1632/56168 [10:20<4:46:10,  3.18it/s, est. speed input: 1262.76 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1633/56168 [10:21<4:44:29,  3.19it/s, est. speed input: 1262.75 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1634/56168 [10:21<4:43:20,  3.21it/s, est. speed input: 1262.73 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1635/56168 [10:21<4:42:23,  3.22it/s, est. speed input: 1262.72 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1636/56168 [10:22<4:42:40,  3.22it/s, est. speed input: 1262.70 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1637/56168 [10:22<4:42:22,  3.22it/s, est. speed input: 1262.69 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1638/56168 [10:22<4:43:54,  3.20it/s, est. speed input: 1262.66 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1639/56168 [10:23<4:44:48,  3.19it/s, est. speed input: 1262.63 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1640/56168 [10:23<4:44:41,  3.19it/s, est. speed input: 1262.61 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1641/56168 [10:23<4:44:39,  3.19it/s, est. speed input: 1262.59 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1642/56168 [10:24<4:44:06,  3.20it/s, est. speed input: 1262.57 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1643/56168 [10:24<4:44:53,  3.19it/s, est. speed input: 1262.55 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1644/56168 [10:24<4:45:01,  3.19it/s, est. speed input: 1262.52 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1645/56168 [10:25<4:45:21,  3.18it/s, est. speed input: 1262.50 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1646/56168 [10:25<4:44:42,  3.19it/s, est. speed input: 1262.48 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1647/56168 [10:25<4:44:15,  3.20it/s, est. speed input: 1262.46 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1648/56168 [10:25<4:44:17,  3.20it/s, est. speed input: 1262.44 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1649/56168 [10:26<4:45:19,  3.18it/s, est. speed input: 1262.41 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1650/56168 [10:26<4:46:26,  3.17it/s, est. speed input: 1262.38 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1651/56168 [10:26<4:46:01,  3.18it/s, est. speed input: 1262.35 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1652/56168 [10:27<4:45:50,  3.18it/s, est. speed input: 1262.33 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1653/56168 [10:27<4:45:00,  3.19it/s, est. speed input: 1262.31 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1654/56168 [10:27<4:44:27,  3.19it/s, est. speed input: 1262.29 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1655/56168 [10:28<4:44:31,  3.19it/s, est. speed input: 1262.27 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1656/56168 [10:28<4:45:34,  3.18it/s, est. speed input: 1262.24 toks/s, output: 2.63 toks/s][A
+Processed prompts:   3%|▎         | 1657/56168 [10:28<4:45:14,  3.19it/s, est. speed input: 1262.21 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1658/56168 [10:29<4:44:37,  3.19it/s, est. speed input: 1262.19 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1659/56168 [10:29<4:43:52,  3.20it/s, est. speed input: 1262.18 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1660/56168 [10:29<4:43:11,  3.21it/s, est. speed input: 1262.16 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1661/56168 [10:30<4:44:35,  3.19it/s, est. speed input: 1262.13 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1662/56168 [10:30<4:43:35,  3.20it/s, est. speed input: 1262.11 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1663/56168 [10:30<4:45:10,  3.19it/s, est. speed input: 1262.08 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1664/56168 [10:31<4:46:07,  3.17it/s, est. speed input: 1262.05 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1665/56168 [10:31<4:46:15,  3.17it/s, est. speed input: 1262.02 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1666/56168 [10:31<4:45:42,  3.18it/s, est. speed input: 1262.00 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1667/56168 [10:31<4:46:40,  3.17it/s, est. speed input: 1261.97 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1668/56168 [10:32<4:45:59,  3.18it/s, est. speed input: 1261.95 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1669/56168 [10:32<4:46:54,  3.17it/s, est. speed input: 1261.91 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1670/56168 [10:32<4:46:55,  3.17it/s, est. speed input: 1261.88 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1671/56168 [10:33<4:47:13,  3.16it/s, est. speed input: 1261.85 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1672/56168 [10:33<4:46:37,  3.17it/s, est. speed input: 1261.83 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1673/56168 [10:33<4:46:35,  3.17it/s, est. speed input: 1261.80 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1674/56168 [10:34<4:44:45,  3.19it/s, est. speed input: 1261.78 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1675/56168 [10:34<4:45:06,  3.19it/s, est. speed input: 1261.75 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1676/56168 [10:34<4:44:32,  3.19it/s, est. speed input: 1261.73 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1677/56168 [10:35<4:43:54,  3.20it/s, est. speed input: 1261.71 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1678/56168 [10:35<4:44:40,  3.19it/s, est. speed input: 1261.69 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1679/56168 [10:35<4:44:29,  3.19it/s, est. speed input: 1261.66 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1680/56168 [10:36<4:45:09,  3.18it/s, est. speed input: 1261.63 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1681/56168 [10:36<4:45:31,  3.18it/s, est. speed input: 1261.61 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1682/56168 [10:36<4:46:08,  3.17it/s, est. speed input: 1261.57 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1683/56168 [10:36<4:45:57,  3.18it/s, est. speed input: 1261.55 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1684/56168 [10:37<4:45:48,  3.18it/s, est. speed input: 1261.52 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1685/56168 [10:37<4:44:35,  3.19it/s, est. speed input: 1261.50 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1686/56168 [10:37<4:44:42,  3.19it/s, est. speed input: 1261.48 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1687/56168 [10:38<4:44:00,  3.20it/s, est. speed input: 1261.46 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1688/56168 [10:38<4:44:29,  3.19it/s, est. speed input: 1261.43 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1689/56168 [10:38<4:46:06,  3.17it/s, est. speed input: 1261.40 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1690/56168 [10:39<4:46:57,  3.16it/s, est. speed input: 1261.36 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1691/56168 [10:39<4:45:19,  3.18it/s, est. speed input: 1261.34 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1692/56168 [10:39<4:45:11,  3.18it/s, est. speed input: 1261.32 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1693/56168 [10:40<4:44:19,  3.19it/s, est. speed input: 1261.30 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1694/56168 [10:40<4:46:12,  3.17it/s, est. speed input: 1261.26 toks/s, output: 2.64 toks/s][A
+Processed prompts:   3%|▎         | 1695/56168 [10:40<4:47:02,  3.16it/s, est. speed input: 1261.22 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1696/56168 [10:41<4:47:32,  3.16it/s, est. speed input: 1261.19 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1697/56168 [10:41<4:46:01,  3.17it/s, est. speed input: 1261.17 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1698/56168 [10:41<4:46:44,  3.17it/s, est. speed input: 1261.13 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1699/56168 [10:42<4:45:19,  3.18it/s, est. speed input: 1261.11 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1700/56168 [10:42<4:45:43,  3.18it/s, est. speed input: 1261.08 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1701/56168 [10:42<4:45:18,  3.18it/s, est. speed input: 1261.06 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1702/56168 [10:42<4:44:38,  3.19it/s, est. speed input: 1261.03 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1703/56168 [10:43<4:45:44,  3.18it/s, est. speed input: 1261.00 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1704/56168 [10:43<4:46:04,  3.17it/s, est. speed input: 1260.97 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1705/56168 [10:43<4:44:44,  3.19it/s, est. speed input: 1260.95 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1706/56168 [10:44<4:43:51,  3.20it/s, est. speed input: 1260.92 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1707/56168 [10:44<4:44:41,  3.19it/s, est. speed input: 1260.89 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1708/56168 [10:44<4:45:31,  3.18it/s, est. speed input: 1260.86 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1709/56168 [10:45<4:46:04,  3.17it/s, est. speed input: 1260.83 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1710/56168 [10:45<4:44:24,  3.19it/s, est. speed input: 1260.81 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1711/56168 [10:45<4:43:37,  3.20it/s, est. speed input: 1260.79 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1712/56168 [10:46<4:44:35,  3.19it/s, est. speed input: 1260.76 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1713/56168 [10:46<4:44:37,  3.19it/s, est. speed input: 1260.73 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1714/56168 [10:46<4:44:37,  3.19it/s, est. speed input: 1260.70 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1715/56168 [10:47<4:44:20,  3.19it/s, est. speed input: 1260.68 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1716/56168 [10:47<4:44:37,  3.19it/s, est. speed input: 1260.65 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1717/56168 [10:47<4:43:47,  3.20it/s, est. speed input: 1260.63 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1718/56168 [10:47<4:43:46,  3.20it/s, est. speed input: 1260.60 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1719/56168 [10:48<4:42:31,  3.21it/s, est. speed input: 1260.59 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1720/56168 [10:48<4:42:25,  3.21it/s, est. speed input: 1260.57 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1721/56168 [10:48<4:42:28,  3.21it/s, est. speed input: 1260.54 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1722/56168 [10:49<4:43:39,  3.20it/s, est. speed input: 1260.51 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1723/56168 [10:49<4:42:37,  3.21it/s, est. speed input: 1260.50 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1724/56168 [10:49<4:43:23,  3.20it/s, est. speed input: 1260.47 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1725/56168 [10:50<4:43:59,  3.20it/s, est. speed input: 1260.44 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1726/56168 [10:50<4:44:35,  3.19it/s, est. speed input: 1260.41 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1727/56168 [10:50<4:45:08,  3.18it/s, est. speed input: 1260.38 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1728/56168 [10:51<4:45:13,  3.18it/s, est. speed input: 1260.35 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1729/56168 [10:51<4:44:52,  3.19it/s, est. speed input: 1260.32 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1730/56168 [10:51<4:44:53,  3.18it/s, est. speed input: 1260.30 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1731/56168 [10:52<4:45:38,  3.18it/s, est. speed input: 1260.26 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1732/56168 [10:52<4:46:46,  3.16it/s, est. speed input: 1260.23 toks/s, output: 2.65 toks/s][A
+Processed prompts:   3%|▎         | 1733/56168 [10:52<4:46:17,  3.17it/s, est. speed input: 1260.20 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1734/56168 [10:53<4:46:19,  3.17it/s, est. speed input: 1260.17 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1735/56168 [10:53<4:44:14,  3.19it/s, est. speed input: 1260.15 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1736/56168 [10:53<4:44:30,  3.19it/s, est. speed input: 1260.13 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1737/56168 [10:53<4:43:03,  3.20it/s, est. speed input: 1260.11 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1738/56168 [10:54<4:42:26,  3.21it/s, est. speed input: 1260.09 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1739/56168 [10:54<4:42:11,  3.21it/s, est. speed input: 1260.07 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1740/56168 [10:54<4:42:48,  3.21it/s, est. speed input: 1260.05 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1741/56168 [10:55<4:43:07,  3.20it/s, est. speed input: 1260.02 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1742/56168 [10:55<4:44:19,  3.19it/s, est. speed input: 1259.99 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1743/56168 [10:55<4:44:47,  3.19it/s, est. speed input: 1259.96 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1744/56168 [10:56<4:44:16,  3.19it/s, est. speed input: 1259.94 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1745/56168 [10:56<4:43:41,  3.20it/s, est. speed input: 1259.91 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1746/56168 [10:56<4:44:13,  3.19it/s, est. speed input: 1259.88 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1747/56168 [10:57<4:43:03,  3.20it/s, est. speed input: 1259.86 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1748/56168 [10:57<4:43:36,  3.20it/s, est. speed input: 1259.84 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1749/56168 [10:57<4:42:15,  3.21it/s, est. speed input: 1259.82 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1750/56168 [10:58<4:42:43,  3.21it/s, est. speed input: 1259.79 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1751/56168 [10:58<4:41:41,  3.22it/s, est. speed input: 1259.78 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1752/56168 [10:58<4:41:19,  3.22it/s, est. speed input: 1259.76 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1753/56168 [10:58<4:42:03,  3.22it/s, est. speed input: 1259.73 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1754/56168 [10:59<4:42:30,  3.21it/s, est. speed input: 1259.71 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1755/56168 [10:59<4:43:03,  3.20it/s, est. speed input: 1259.68 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1756/56168 [10:59<4:41:47,  3.22it/s, est. speed input: 1259.66 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1757/56168 [11:00<4:41:26,  3.22it/s, est. speed input: 1259.64 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1758/56168 [11:00<4:42:43,  3.21it/s, est. speed input: 1259.61 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1759/56168 [11:00<4:43:18,  3.20it/s, est. speed input: 1259.59 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1760/56168 [11:01<4:43:33,  3.20it/s, est. speed input: 1259.56 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1761/56168 [11:01<4:43:12,  3.20it/s, est. speed input: 1259.53 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1762/56168 [11:01<4:42:59,  3.20it/s, est. speed input: 1259.51 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1763/56168 [11:02<4:43:57,  3.19it/s, est. speed input: 1259.48 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1764/56168 [11:02<4:44:33,  3.19it/s, est. speed input: 1259.45 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1765/56168 [11:02<4:44:50,  3.18it/s, est. speed input: 1259.41 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1766/56168 [11:02<4:43:59,  3.19it/s, est. speed input: 1259.39 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1767/56168 [11:03<4:43:45,  3.20it/s, est. speed input: 1259.36 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1768/56168 [11:04<9:45:15,  1.55it/s, est. speed input: 1257.24 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1769/56168 [11:05<8:15:45,  1.83it/s, est. speed input: 1257.20 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1770/56168 [11:05<7:13:28,  2.09it/s, est. speed input: 1257.17 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1771/56168 [11:05<6:28:06,  2.34it/s, est. speed input: 1257.15 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1772/56168 [11:05<5:57:25,  2.54it/s, est. speed input: 1257.11 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1773/56168 [11:06<5:34:03,  2.71it/s, est. speed input: 1257.10 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1774/56168 [11:06<5:18:26,  2.85it/s, est. speed input: 1257.07 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1775/56168 [11:06<5:08:16,  2.94it/s, est. speed input: 1257.05 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1776/56168 [11:07<4:59:43,  3.02it/s, est. speed input: 1257.03 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1777/56168 [11:07<4:55:42,  3.07it/s, est. speed input: 1257.00 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1778/56168 [11:07<4:50:46,  3.12it/s, est. speed input: 1256.98 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1779/56168 [11:08<4:48:21,  3.14it/s, est. speed input: 1256.96 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1780/56168 [11:08<4:47:13,  3.16it/s, est. speed input: 1256.93 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1781/56168 [11:08<4:46:37,  3.16it/s, est. speed input: 1256.90 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1782/56168 [11:09<4:45:57,  3.17it/s, est. speed input: 1256.87 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1783/56168 [11:09<4:43:45,  3.19it/s, est. speed input: 1256.86 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1784/56168 [11:09<4:43:59,  3.19it/s, est. speed input: 1256.83 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1785/56168 [11:10<4:43:29,  3.20it/s, est. speed input: 1256.80 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1786/56168 [11:10<4:42:55,  3.20it/s, est. speed input: 1256.78 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1787/56168 [11:10<4:44:28,  3.19it/s, est. speed input: 1256.74 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1788/56168 [11:10<4:43:15,  3.20it/s, est. speed input: 1256.72 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1789/56168 [11:11<4:44:49,  3.18it/s, est. speed input: 1256.69 toks/s, output: 2.66 toks/s][A
+Processed prompts:   3%|▎         | 1790/56168 [11:11<4:44:33,  3.18it/s, est. speed input: 1256.66 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1791/56168 [11:11<4:43:18,  3.20it/s, est. speed input: 1256.64 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1792/56168 [11:12<4:42:21,  3.21it/s, est. speed input: 1256.62 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1793/56168 [11:12<4:44:26,  3.19it/s, est. speed input: 1256.58 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1794/56168 [11:12<4:45:11,  3.18it/s, est. speed input: 1256.54 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1795/56168 [11:13<4:44:46,  3.18it/s, est. speed input: 1256.51 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1796/56168 [11:13<4:42:54,  3.20it/s, est. speed input: 1256.49 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1797/56168 [11:13<4:44:13,  3.19it/s, est. speed input: 1256.46 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1798/56168 [11:14<4:42:26,  3.21it/s, est. speed input: 1256.44 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1799/56168 [11:14<4:42:05,  3.21it/s, est. speed input: 1256.42 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1800/56168 [11:14<4:40:57,  3.23it/s, est. speed input: 1256.40 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1801/56168 [11:15<4:41:51,  3.21it/s, est. speed input: 1256.37 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1802/56168 [11:15<4:41:43,  3.22it/s, est. speed input: 1256.35 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1803/56168 [11:15<4:42:16,  3.21it/s, est. speed input: 1256.32 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1804/56168 [11:15<4:42:14,  3.21it/s, est. speed input: 1256.29 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1805/56168 [11:16<4:42:50,  3.20it/s, est. speed input: 1256.26 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1806/56168 [11:16<4:43:16,  3.20it/s, est. speed input: 1256.23 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1807/56168 [11:16<4:44:24,  3.19it/s, est. speed input: 1256.20 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1808/56168 [11:17<4:44:20,  3.19it/s, est. speed input: 1256.17 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1809/56168 [11:17<4:45:22,  3.17it/s, est. speed input: 1256.13 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1810/56168 [11:17<4:44:45,  3.18it/s, est. speed input: 1256.10 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1811/56168 [11:18<4:44:28,  3.18it/s, est. speed input: 1256.07 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1812/56168 [11:18<4:43:30,  3.20it/s, est. speed input: 1256.04 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1813/56168 [11:18<4:43:13,  3.20it/s, est. speed input: 1256.02 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1814/56168 [11:19<4:42:25,  3.21it/s, est. speed input: 1255.99 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1815/56168 [11:19<4:42:37,  3.21it/s, est. speed input: 1255.96 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1816/56168 [11:19<4:42:31,  3.21it/s, est. speed input: 1255.94 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1817/56168 [11:20<4:42:55,  3.20it/s, est. speed input: 1255.91 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1818/56168 [11:20<4:42:20,  3.21it/s, est. speed input: 1255.88 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1819/56168 [11:20<4:42:29,  3.21it/s, est. speed input: 1255.85 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1820/56168 [11:20<4:42:27,  3.21it/s, est. speed input: 1255.83 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1821/56168 [11:21<4:42:06,  3.21it/s, est. speed input: 1255.80 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1822/56168 [11:21<4:42:57,  3.20it/s, est. speed input: 1255.77 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1823/56168 [11:21<4:42:49,  3.20it/s, est. speed input: 1255.74 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1824/56168 [11:22<4:43:21,  3.20it/s, est. speed input: 1255.71 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1825/56168 [11:22<4:44:27,  3.18it/s, est. speed input: 1255.67 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1826/56168 [11:22<4:43:40,  3.19it/s, est. speed input: 1255.65 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1827/56168 [11:23<4:43:58,  3.19it/s, est. speed input: 1255.61 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1828/56168 [11:23<4:42:53,  3.20it/s, est. speed input: 1255.59 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1829/56168 [11:23<4:41:26,  3.22it/s, est. speed input: 1255.57 toks/s, output: 2.67 toks/s][A
+Processed prompts:   3%|▎         | 1830/56168 [11:24<4:41:01,  3.22it/s, est. speed input: 1255.54 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1831/56168 [11:24<4:41:58,  3.21it/s, est. speed input: 1255.51 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1832/56168 [11:24<4:41:19,  3.22it/s, est. speed input: 1255.49 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1833/56168 [11:25<4:42:33,  3.20it/s, est. speed input: 1255.45 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1834/56168 [11:25<4:42:32,  3.21it/s, est. speed input: 1255.43 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1835/56168 [11:25<4:43:15,  3.20it/s, est. speed input: 1255.39 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1836/56168 [11:25<4:42:14,  3.21it/s, est. speed input: 1255.37 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1837/56168 [11:26<4:41:54,  3.21it/s, est. speed input: 1255.34 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1838/56168 [11:26<4:42:09,  3.21it/s, est. speed input: 1255.31 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1839/56168 [11:26<4:42:32,  3.20it/s, est. speed input: 1255.28 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1840/56168 [11:27<4:42:54,  3.20it/s, est. speed input: 1255.25 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1841/56168 [11:27<4:44:24,  3.18it/s, est. speed input: 1255.21 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1842/56168 [11:27<4:44:39,  3.18it/s, est. speed input: 1255.18 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1843/56168 [11:28<4:44:06,  3.19it/s, est. speed input: 1255.14 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1844/56168 [11:28<4:44:33,  3.18it/s, est. speed input: 1255.11 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1845/56168 [11:28<4:43:30,  3.19it/s, est. speed input: 1255.08 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1846/56168 [11:29<4:43:04,  3.20it/s, est. speed input: 1255.05 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1847/56168 [11:29<4:41:57,  3.21it/s, est. speed input: 1255.03 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1848/56168 [11:29<4:42:20,  3.21it/s, est. speed input: 1255.00 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1849/56168 [11:30<4:41:12,  3.22it/s, est. speed input: 1254.98 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1850/56168 [11:30<4:41:43,  3.21it/s, est. speed input: 1254.94 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1851/56168 [11:30<4:42:08,  3.21it/s, est. speed input: 1254.91 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1852/56168 [11:30<4:41:19,  3.22it/s, est. speed input: 1254.89 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1853/56168 [11:31<4:40:45,  3.22it/s, est. speed input: 1254.87 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1854/56168 [11:31<4:39:34,  3.24it/s, est. speed input: 1254.85 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1855/56168 [11:31<4:40:12,  3.23it/s, est. speed input: 1254.82 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1856/56168 [11:32<4:39:19,  3.24it/s, est. speed input: 1254.80 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1857/56168 [11:32<4:41:39,  3.21it/s, est. speed input: 1254.76 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1858/56168 [11:32<4:42:24,  3.21it/s, est. speed input: 1254.73 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1859/56168 [11:33<4:41:36,  3.21it/s, est. speed input: 1254.70 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1860/56168 [11:33<4:40:34,  3.23it/s, est. speed input: 1254.68 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1861/56168 [11:33<4:41:40,  3.21it/s, est. speed input: 1254.64 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1862/56168 [11:34<4:42:29,  3.20it/s, est. speed input: 1254.61 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1863/56168 [11:34<4:42:12,  3.21it/s, est. speed input: 1254.58 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1864/56168 [11:34<4:41:33,  3.21it/s, est. speed input: 1254.55 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1865/56168 [11:35<4:40:39,  3.22it/s, est. speed input: 1254.53 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1866/56168 [11:35<4:41:21,  3.22it/s, est. speed input: 1254.50 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1867/56168 [11:35<4:41:09,  3.22it/s, est. speed input: 1254.47 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1868/56168 [11:35<4:39:42,  3.24it/s, est. speed input: 1254.45 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1869/56168 [11:36<4:40:18,  3.23it/s, est. speed input: 1254.42 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1870/56168 [11:36<4:39:54,  3.23it/s, est. speed input: 1254.40 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1871/56168 [11:36<4:40:19,  3.23it/s, est. speed input: 1254.37 toks/s, output: 2.68 toks/s][A
+Processed prompts:   3%|▎         | 1872/56168 [11:37<4:41:02,  3.22it/s, est. speed input: 1254.34 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1873/56168 [11:37<4:40:02,  3.23it/s, est. speed input: 1254.32 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1874/56168 [11:37<4:39:15,  3.24it/s, est. speed input: 1254.29 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1875/56168 [11:38<4:39:20,  3.24it/s, est. speed input: 1254.27 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1876/56168 [11:38<4:39:58,  3.23it/s, est. speed input: 1254.24 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1877/56168 [11:38<4:40:08,  3.23it/s, est. speed input: 1254.21 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1878/56168 [11:39<4:40:20,  3.23it/s, est. speed input: 1254.19 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1879/56168 [11:39<4:40:52,  3.22it/s, est. speed input: 1254.16 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1880/56168 [11:39<4:40:28,  3.23it/s, est. speed input: 1254.13 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1881/56168 [11:39<4:40:01,  3.23it/s, est. speed input: 1254.11 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1882/56168 [11:40<4:41:14,  3.22it/s, est. speed input: 1254.07 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1883/56168 [11:40<4:40:52,  3.22it/s, est. speed input: 1254.05 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1884/56168 [11:40<4:41:06,  3.22it/s, est. speed input: 1254.02 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1885/56168 [11:41<4:42:45,  3.20it/s, est. speed input: 1253.98 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1886/56168 [11:41<4:41:51,  3.21it/s, est. speed input: 1253.95 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1887/56168 [11:41<4:42:02,  3.21it/s, est. speed input: 1253.92 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1888/56168 [11:42<4:41:59,  3.21it/s, est. speed input: 1253.89 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1889/56168 [11:42<4:41:45,  3.21it/s, est. speed input: 1253.86 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1890/56168 [11:42<4:42:12,  3.21it/s, est. speed input: 1253.82 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1891/56168 [11:43<4:41:12,  3.22it/s, est. speed input: 1253.80 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1892/56168 [11:43<4:41:40,  3.21it/s, est. speed input: 1253.77 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1893/56168 [11:43<4:41:50,  3.21it/s, est. speed input: 1253.74 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1894/56168 [11:44<4:42:07,  3.21it/s, est. speed input: 1253.70 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1895/56168 [11:44<4:42:18,  3.20it/s, est. speed input: 1253.67 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1896/56168 [11:44<4:42:15,  3.20it/s, est. speed input: 1253.64 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1897/56168 [11:44<4:41:38,  3.21it/s, est. speed input: 1253.61 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1898/56168 [11:45<4:40:19,  3.23it/s, est. speed input: 1253.59 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1899/56168 [11:45<4:40:12,  3.23it/s, est. speed input: 1253.56 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1900/56168 [11:45<4:40:06,  3.23it/s, est. speed input: 1253.54 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1901/56168 [11:46<4:40:45,  3.22it/s, est. speed input: 1253.50 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1902/56168 [11:46<4:41:02,  3.22it/s, est. speed input: 1253.47 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1903/56168 [11:46<4:40:48,  3.22it/s, est. speed input: 1253.45 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1904/56168 [11:47<4:40:03,  3.23it/s, est. speed input: 1253.42 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1905/56168 [11:47<4:42:06,  3.21it/s, est. speed input: 1253.38 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1906/56168 [11:47<4:41:49,  3.21it/s, est. speed input: 1253.35 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1907/56168 [11:48<4:40:18,  3.23it/s, est. speed input: 1253.33 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1908/56168 [11:48<4:40:41,  3.22it/s, est. speed input: 1253.30 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1909/56168 [11:48<4:41:52,  3.21it/s, est. speed input: 1253.26 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1910/56168 [11:48<4:40:11,  3.23it/s, est. speed input: 1253.24 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1911/56168 [11:49<4:40:32,  3.22it/s, est. speed input: 1253.21 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1912/56168 [11:49<4:40:11,  3.23it/s, est. speed input: 1253.18 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1913/56168 [11:49<4:40:06,  3.23it/s, est. speed input: 1253.15 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1914/56168 [11:50<4:40:14,  3.23it/s, est. speed input: 1253.12 toks/s, output: 2.69 toks/s][A
+Processed prompts:   3%|▎         | 1915/56168 [11:50<4:40:13,  3.23it/s, est. speed input: 1253.10 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1916/56168 [11:50<4:40:54,  3.22it/s, est. speed input: 1253.06 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1917/56168 [11:51<4:41:27,  3.21it/s, est. speed input: 1253.03 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1918/56168 [11:51<4:39:27,  3.24it/s, est. speed input: 1253.01 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1919/56168 [11:51<4:39:15,  3.24it/s, est. speed input: 1252.98 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1920/56168 [11:52<4:39:05,  3.24it/s, est. speed input: 1252.96 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1921/56168 [11:52<4:39:53,  3.23it/s, est. speed input: 1252.93 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1922/56168 [11:52<4:38:48,  3.24it/s, est. speed input: 1252.91 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1923/56168 [11:53<4:39:10,  3.24it/s, est. speed input: 1252.88 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1924/56168 [11:53<4:39:27,  3.24it/s, est. speed input: 1252.85 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1925/56168 [11:53<4:38:43,  3.24it/s, est. speed input: 1252.83 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1926/56168 [11:53<4:38:02,  3.25it/s, est. speed input: 1252.81 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1927/56168 [11:54<4:37:16,  3.26it/s, est. speed input: 1252.79 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1928/56168 [11:54<4:38:11,  3.25it/s, est. speed input: 1252.76 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1929/56168 [11:54<4:37:06,  3.26it/s, est. speed input: 1252.74 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1930/56168 [11:55<4:38:11,  3.25it/s, est. speed input: 1252.71 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1931/56168 [11:55<4:37:43,  3.25it/s, est. speed input: 1252.69 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1932/56168 [11:55<4:38:20,  3.25it/s, est. speed input: 1252.66 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1933/56168 [11:56<4:39:43,  3.23it/s, est. speed input: 1252.63 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1934/56168 [11:56<4:40:35,  3.22it/s, est. speed input: 1252.59 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1935/56168 [11:56<4:40:50,  3.22it/s, est. speed input: 1252.56 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1936/56168 [11:57<4:41:05,  3.22it/s, est. speed input: 1252.53 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1937/56168 [11:57<4:39:52,  3.23it/s, est. speed input: 1252.50 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1938/56168 [11:57<4:40:25,  3.22it/s, est. speed input: 1252.47 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1939/56168 [11:57<4:40:52,  3.22it/s, est. speed input: 1252.44 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1940/56168 [11:58<4:41:40,  3.21it/s, est. speed input: 1252.40 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1941/56168 [11:58<4:40:50,  3.22it/s, est. speed input: 1252.37 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1942/56168 [11:58<4:40:02,  3.23it/s, est. speed input: 1252.35 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1943/56168 [11:59<4:41:50,  3.21it/s, est. speed input: 1252.30 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1944/56168 [11:59<4:39:49,  3.23it/s, est. speed input: 1252.28 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1945/56168 [11:59<4:39:23,  3.23it/s, est. speed input: 1252.26 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1946/56168 [12:00<4:39:56,  3.23it/s, est. speed input: 1252.22 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1947/56168 [12:00<4:38:44,  3.24it/s, est. speed input: 1252.20 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1948/56168 [12:00<4:39:02,  3.24it/s, est. speed input: 1252.17 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1949/56168 [12:01<4:38:35,  3.24it/s, est. speed input: 1252.14 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1950/56168 [12:01<4:38:53,  3.24it/s, est. speed input: 1252.12 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1951/56168 [12:01<4:39:17,  3.24it/s, est. speed input: 1252.08 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1952/56168 [12:01<4:37:52,  3.25it/s, est. speed input: 1252.06 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1953/56168 [12:02<4:40:02,  3.23it/s, est. speed input: 1252.02 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1954/56168 [12:02<4:39:26,  3.23it/s, est. speed input: 1251.99 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1955/56168 [12:02<4:40:14,  3.22it/s, est. speed input: 1251.96 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1956/56168 [12:03<4:39:26,  3.23it/s, est. speed input: 1251.93 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1957/56168 [12:03<4:40:03,  3.23it/s, est. speed input: 1251.90 toks/s, output: 2.70 toks/s][A
+Processed prompts:   3%|▎         | 1958/56168 [12:03<4:39:39,  3.23it/s, est. speed input: 1251.87 toks/s, output: 2.71 toks/s][A
+Processed prompts:   3%|▎         | 1959/56168 [12:04<4:39:48,  3.23it/s, est. speed input: 1251.84 toks/s, output: 2.71 toks/s][A
+Processed prompts:   3%|▎         | 1960/56168 [12:04<4:40:23,  3.22it/s, est. speed input: 1251.80 toks/s, output: 2.71 toks/s][A
+Processed prompts:   3%|▎         | 1961/56168 [12:04<4:40:15,  3.22it/s, est. speed input: 1251.77 toks/s, output: 2.71 toks/s][A
+Processed prompts:   3%|▎         | 1962/56168 [12:05<4:40:13,  3.22it/s, est. speed input: 1251.74 toks/s, output: 2.71 toks/s][A
+Processed prompts:   3%|▎         | 1963/56168 [12:05<4:40:08,  3.22it/s, est. speed input: 1251.71 toks/s, output: 2.71 toks/s][A
+Processed prompts:   3%|▎         | 1964/56168 [12:05<4:39:52,  3.23it/s, est. speed input: 1251.67 toks/s, output: 2.71 toks/s][A
+Processed prompts:   3%|▎         | 1965/56168 [12:06<4:39:02,  3.24it/s, est. speed input: 1251.65 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1966/56168 [12:06<4:39:14,  3.24it/s, est. speed input: 1251.62 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1967/56168 [12:06<4:38:27,  3.24it/s, est. speed input: 1251.59 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1968/56168 [12:06<4:38:55,  3.24it/s, est. speed input: 1251.56 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1969/56168 [12:07<4:38:14,  3.25it/s, est. speed input: 1251.54 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1970/56168 [12:07<4:38:12,  3.25it/s, est. speed input: 1251.51 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1971/56168 [12:07<4:38:53,  3.24it/s, est. speed input: 1251.48 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1972/56168 [12:08<4:38:07,  3.25it/s, est. speed input: 1251.45 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1973/56168 [12:08<4:37:25,  3.26it/s, est. speed input: 1251.43 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1974/56168 [12:08<4:38:18,  3.25it/s, est. speed input: 1251.40 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1975/56168 [12:09<4:38:51,  3.24it/s, est. speed input: 1251.36 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1976/56168 [12:09<4:37:55,  3.25it/s, est. speed input: 1251.34 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1977/56168 [12:09<4:38:32,  3.24it/s, est. speed input: 1251.31 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1978/56168 [12:10<4:38:53,  3.24it/s, est. speed input: 1251.28 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1979/56168 [12:10<4:38:06,  3.25it/s, est. speed input: 1251.25 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1980/56168 [12:10<4:38:36,  3.24it/s, est. speed input: 1251.22 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1981/56168 [12:10<4:39:46,  3.23it/s, est. speed input: 1251.18 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1982/56168 [12:11<4:38:34,  3.24it/s, est. speed input: 1251.16 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1983/56168 [12:11<4:40:19,  3.22it/s, est. speed input: 1251.12 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1984/56168 [12:11<4:40:03,  3.22it/s, est. speed input: 1251.09 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1985/56168 [12:12<4:40:17,  3.22it/s, est. speed input: 1251.05 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1986/56168 [12:12<4:40:45,  3.22it/s, est. speed input: 1251.02 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1987/56168 [12:12<4:40:40,  3.22it/s, est. speed input: 1250.98 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1988/56168 [12:13<4:41:04,  3.21it/s, est. speed input: 1250.95 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1989/56168 [12:13<4:40:33,  3.22it/s, est. speed input: 1250.92 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1990/56168 [12:13<4:41:01,  3.21it/s, est. speed input: 1250.88 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1991/56168 [12:14<4:41:07,  3.21it/s, est. speed input: 1250.84 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1992/56168 [12:14<4:40:37,  3.22it/s, est. speed input: 1250.81 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1993/56168 [12:14<4:40:45,  3.22it/s, est. speed input: 1250.78 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1994/56168 [12:14<4:40:13,  3.22it/s, est. speed input: 1250.75 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1995/56168 [12:15<4:40:22,  3.22it/s, est. speed input: 1250.71 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1996/56168 [12:15<4:41:07,  3.21it/s, est. speed input: 1250.68 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1997/56168 [12:15<4:40:00,  3.22it/s, est. speed input: 1250.65 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1998/56168 [12:16<4:40:24,  3.22it/s, est. speed input: 1250.61 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 1999/56168 [12:16<4:38:35,  3.24it/s, est. speed input: 1250.59 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 2000/56168 [12:16<4:39:13,  3.23it/s, est. speed input: 1250.56 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 2001/56168 [12:17<4:41:10,  3.21it/s, est. speed input: 1250.51 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 2002/56168 [12:17<4:41:12,  3.21it/s, est. speed input: 1250.48 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 2003/56168 [12:17<4:41:23,  3.21it/s, est. speed input: 1250.44 toks/s, output: 2.71 toks/s][A
+Processed prompts:   4%|▎         | 2004/56168 [12:18<4:39:14,  3.23it/s, est. speed input: 1250.42 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2005/56168 [12:18<4:38:49,  3.24it/s, est. speed input: 1250.39 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2006/56168 [12:18<4:37:53,  3.25it/s, est. speed input: 1250.36 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2007/56168 [12:18<4:38:06,  3.25it/s, est. speed input: 1250.33 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2008/56168 [12:19<4:38:52,  3.24it/s, est. speed input: 1250.30 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2009/56168 [12:19<4:39:20,  3.23it/s, est. speed input: 1250.26 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2010/56168 [12:19<4:39:12,  3.23it/s, est. speed input: 1250.23 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2011/56168 [12:20<4:39:57,  3.22it/s, est. speed input: 1250.19 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2012/56168 [12:20<4:38:22,  3.24it/s, est. speed input: 1250.17 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2013/56168 [12:20<4:39:16,  3.23it/s, est. speed input: 1250.13 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2014/56168 [12:21<4:39:34,  3.23it/s, est. speed input: 1250.10 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2015/56168 [12:21<4:40:22,  3.22it/s, est. speed input: 1250.06 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2016/56168 [12:21<4:40:38,  3.22it/s, est. speed input: 1250.03 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2017/56168 [12:22<4:39:00,  3.23it/s, est. speed input: 1250.00 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2018/56168 [12:22<4:38:07,  3.24it/s, est. speed input: 1249.97 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2019/56168 [12:22<4:38:02,  3.25it/s, est. speed input: 1249.94 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2020/56168 [12:23<4:38:52,  3.24it/s, est. speed input: 1249.91 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2021/56168 [12:23<4:41:05,  3.21it/s, est. speed input: 1249.86 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2022/56168 [12:23<4:40:54,  3.21it/s, est. speed input: 1249.82 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2023/56168 [12:23<4:39:59,  3.22it/s, est. speed input: 1249.79 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2024/56168 [12:24<4:40:19,  3.22it/s, est. speed input: 1249.75 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2025/56168 [12:24<4:39:47,  3.23it/s, est. speed input: 1249.72 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2026/56168 [12:24<4:40:35,  3.22it/s, est. speed input: 1249.68 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2027/56168 [12:25<4:38:49,  3.24it/s, est. speed input: 1249.65 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2028/56168 [12:25<4:39:06,  3.23it/s, est. speed input: 1249.61 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2029/56168 [12:25<4:39:00,  3.23it/s, est. speed input: 1249.58 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2030/56168 [12:26<4:37:53,  3.25it/s, est. speed input: 1249.55 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2031/56168 [12:26<4:37:24,  3.25it/s, est. speed input: 1249.53 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2032/56168 [12:26<4:37:59,  3.25it/s, est. speed input: 1249.49 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2033/56168 [12:27<4:37:07,  3.26it/s, est. speed input: 1249.46 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2034/56168 [12:27<4:37:30,  3.25it/s, est. speed input: 1249.43 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2035/56168 [12:27<4:37:47,  3.25it/s, est. speed input: 1249.39 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2036/56168 [12:27<4:38:20,  3.24it/s, est. speed input: 1249.36 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2037/56168 [12:28<4:39:14,  3.23it/s, est. speed input: 1249.32 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2038/56168 [12:28<4:38:01,  3.24it/s, est. speed input: 1249.29 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2039/56168 [12:28<4:36:53,  3.26it/s, est. speed input: 1249.26 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2040/56168 [12:29<4:38:00,  3.25it/s, est. speed input: 1249.22 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2041/56168 [12:29<4:36:53,  3.26it/s, est. speed input: 1249.19 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2042/56168 [12:29<4:36:24,  3.26it/s, est. speed input: 1249.16 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2043/56168 [12:30<4:37:01,  3.26it/s, est. speed input: 1249.13 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2044/56168 [12:30<4:36:02,  3.27it/s, est. speed input: 1249.10 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2045/56168 [12:30<4:37:55,  3.25it/s, est. speed input: 1249.06 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2046/56168 [12:31<4:37:50,  3.25it/s, est. speed input: 1249.02 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2047/56168 [12:31<4:36:51,  3.26it/s, est. speed input: 1249.00 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2048/56168 [12:31<4:37:09,  3.25it/s, est. speed input: 1248.96 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2049/56168 [12:31<4:37:45,  3.25it/s, est. speed input: 1248.92 toks/s, output: 2.72 toks/s][A
+Processed prompts:   4%|▎         | 2050/56168 [12:32<4:36:34,  3.26it/s, est. speed input: 1248.90 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2051/56168 [12:32<4:36:59,  3.26it/s, est. speed input: 1248.86 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2052/56168 [12:32<4:38:05,  3.24it/s, est. speed input: 1248.82 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2053/56168 [12:33<4:38:15,  3.24it/s, est. speed input: 1248.79 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2054/56168 [12:33<4:37:58,  3.24it/s, est. speed input: 1248.75 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2055/56168 [12:33<4:37:37,  3.25it/s, est. speed input: 1248.72 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2056/56168 [12:34<4:37:11,  3.25it/s, est. speed input: 1248.69 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2057/56168 [12:34<4:36:56,  3.26it/s, est. speed input: 1248.66 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2058/56168 [12:34<4:36:01,  3.27it/s, est. speed input: 1248.63 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2059/56168 [12:35<4:36:23,  3.26it/s, est. speed input: 1248.60 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2060/56168 [12:35<4:35:29,  3.27it/s, est. speed input: 1248.57 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2061/56168 [12:35<4:35:06,  3.28it/s, est. speed input: 1248.55 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2062/56168 [12:35<4:36:40,  3.26it/s, est. speed input: 1248.51 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2063/56168 [12:36<4:37:05,  3.25it/s, est. speed input: 1248.47 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2064/56168 [12:36<4:36:08,  3.27it/s, est. speed input: 1248.45 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2065/56168 [12:36<4:35:03,  3.28it/s, est. speed input: 1248.42 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2066/56168 [12:37<4:36:01,  3.27it/s, est. speed input: 1248.39 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2067/56168 [12:37<4:37:06,  3.25it/s, est. speed input: 1248.35 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2068/56168 [12:37<4:35:58,  3.27it/s, est. speed input: 1248.33 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2069/56168 [12:38<4:36:58,  3.26it/s, est. speed input: 1248.29 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2070/56168 [12:38<4:37:41,  3.25it/s, est. speed input: 1248.25 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2071/56168 [12:38<4:37:37,  3.25it/s, est. speed input: 1248.22 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2072/56168 [12:39<4:38:17,  3.24it/s, est. speed input: 1248.18 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2073/56168 [12:39<4:38:49,  3.23it/s, est. speed input: 1248.14 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2074/56168 [12:39<4:37:19,  3.25it/s, est. speed input: 1248.11 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2075/56168 [12:39<4:37:31,  3.25it/s, est. speed input: 1248.08 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2076/56168 [12:40<4:37:05,  3.25it/s, est. speed input: 1248.05 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2077/56168 [12:40<4:37:55,  3.24it/s, est. speed input: 1248.01 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2078/56168 [12:40<4:37:54,  3.24it/s, est. speed input: 1247.97 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2079/56168 [12:41<4:36:59,  3.25it/s, est. speed input: 1247.94 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2080/56168 [12:41<4:36:47,  3.26it/s, est. speed input: 1247.91 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2081/56168 [12:41<4:36:23,  3.26it/s, est. speed input: 1247.88 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2082/56168 [12:42<4:35:28,  3.27it/s, est. speed input: 1247.85 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2083/56168 [12:42<4:36:34,  3.26it/s, est. speed input: 1247.82 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2084/56168 [12:42<4:37:06,  3.25it/s, est. speed input: 1247.78 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2085/56168 [12:43<4:36:11,  3.26it/s, est. speed input: 1247.75 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2086/56168 [12:43<4:35:58,  3.27it/s, est. speed input: 1247.72 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2087/56168 [12:43<4:36:28,  3.26it/s, est. speed input: 1247.69 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2088/56168 [12:43<4:36:27,  3.26it/s, est. speed input: 1247.66 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2089/56168 [12:44<4:37:02,  3.25it/s, est. speed input: 1247.62 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2090/56168 [12:44<4:35:48,  3.27it/s, est. speed input: 1247.59 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2091/56168 [12:44<4:36:37,  3.26it/s, est. speed input: 1247.56 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2092/56168 [12:45<4:36:14,  3.26it/s, est. speed input: 1247.53 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2093/56168 [12:45<4:36:18,  3.26it/s, est. speed input: 1247.50 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2094/56168 [12:45<4:36:36,  3.26it/s, est. speed input: 1247.46 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2095/56168 [12:46<4:35:43,  3.27it/s, est. speed input: 1247.43 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2096/56168 [12:46<4:35:35,  3.27it/s, est. speed input: 1247.40 toks/s, output: 2.73 toks/s][A
+Processed prompts:   4%|▎         | 2097/56168 [12:46<4:35:37,  3.27it/s, est. speed input: 1247.37 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▎         | 2098/56168 [12:47<4:35:39,  3.27it/s, est. speed input: 1247.34 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▎         | 2099/56168 [12:47<4:36:05,  3.26it/s, est. speed input: 1247.31 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▎         | 2100/56168 [12:47<4:36:41,  3.26it/s, est. speed input: 1247.27 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▎         | 2101/56168 [12:47<4:37:05,  3.25it/s, est. speed input: 1247.24 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▎         | 2102/56168 [12:48<4:37:47,  3.24it/s, est. speed input: 1247.20 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▎         | 2103/56168 [12:48<4:37:22,  3.25it/s, est. speed input: 1247.17 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▎         | 2104/56168 [12:48<4:36:18,  3.26it/s, est. speed input: 1247.14 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▎         | 2105/56168 [12:49<4:36:27,  3.26it/s, est. speed input: 1247.10 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▎         | 2106/56168 [12:49<4:36:35,  3.26it/s, est. speed input: 1247.07 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2107/56168 [12:49<4:35:59,  3.26it/s, est. speed input: 1247.04 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2108/56168 [12:50<4:36:12,  3.26it/s, est. speed input: 1247.01 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2109/56168 [12:50<4:37:20,  3.25it/s, est. speed input: 1246.97 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2110/56168 [12:50<4:36:12,  3.26it/s, est. speed input: 1246.94 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2111/56168 [12:50<4:36:10,  3.26it/s, est. speed input: 1246.91 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2112/56168 [12:51<4:36:11,  3.26it/s, est. speed input: 1246.87 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2113/56168 [12:51<4:36:20,  3.26it/s, est. speed input: 1246.84 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2114/56168 [12:51<4:37:03,  3.25it/s, est. speed input: 1246.80 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2115/56168 [12:52<4:37:08,  3.25it/s, est. speed input: 1246.77 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2116/56168 [12:52<4:36:10,  3.26it/s, est. speed input: 1246.74 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2117/56168 [12:52<4:36:21,  3.26it/s, est. speed input: 1246.70 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2118/56168 [12:53<4:36:57,  3.25it/s, est. speed input: 1246.67 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2119/56168 [12:53<4:36:17,  3.26it/s, est. speed input: 1246.64 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2120/56168 [12:53<4:36:38,  3.26it/s, est. speed input: 1246.60 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2121/56168 [12:54<4:35:47,  3.27it/s, est. speed input: 1246.57 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2122/56168 [12:54<4:35:51,  3.27it/s, est. speed input: 1246.54 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2123/56168 [12:54<4:34:35,  3.28it/s, est. speed input: 1246.52 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2124/56168 [12:54<4:34:44,  3.28it/s, est. speed input: 1246.49 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2125/56168 [12:55<4:34:55,  3.28it/s, est. speed input: 1246.46 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2126/56168 [12:55<4:36:02,  3.26it/s, est. speed input: 1246.42 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2127/56168 [12:55<4:34:57,  3.28it/s, est. speed input: 1246.39 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2128/56168 [12:56<4:34:12,  3.28it/s, est. speed input: 1246.37 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2129/56168 [12:56<4:33:25,  3.29it/s, est. speed input: 1246.34 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2130/56168 [12:56<4:33:03,  3.30it/s, est. speed input: 1246.32 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2131/56168 [12:57<4:33:29,  3.29it/s, est. speed input: 1246.29 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2132/56168 [12:57<4:34:26,  3.28it/s, est. speed input: 1246.26 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2133/56168 [12:57<4:36:01,  3.26it/s, est. speed input: 1246.22 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2134/56168 [12:58<4:37:31,  3.25it/s, est. speed input: 1246.17 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2135/56168 [12:58<4:36:09,  3.26it/s, est. speed input: 1246.15 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2136/56168 [12:58<4:36:23,  3.26it/s, est. speed input: 1246.11 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2137/56168 [12:58<4:37:11,  3.25it/s, est. speed input: 1246.07 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2138/56168 [12:59<4:36:31,  3.26it/s, est. speed input: 1246.04 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2139/56168 [12:59<4:37:27,  3.25it/s, est. speed input: 1246.00 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2140/56168 [12:59<4:36:23,  3.26it/s, est. speed input: 1245.97 toks/s, output: 2.74 toks/s][A
+Processed prompts:   4%|▍         | 2141/56168 [13:00<4:34:41,  3.28it/s, est. speed input: 1245.95 toks/s, output: 2.74 toks/s][A
