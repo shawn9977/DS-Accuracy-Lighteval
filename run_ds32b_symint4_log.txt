@@ -1,0 +1,3 @@
+nohup: ignoring input
+====================Starting SYM_INT4  at Wed Jun 11 11:00:48 CST 2025=================
+Starting math_500 at Wed Jun 11 11:00:48 CST 2025

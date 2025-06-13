@@ -1,0 +1,165 @@
+[W611 11:00:50.698611541 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: XPU
+  previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477
+       new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())
+[2025-06-11 11:00:54,383] [[32m    INFO[0m]: PyTorch version 2.6.0+xpu available. (config.py:54)[0m
+[W611 11:00:55.575185543 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.
+  Overriding a previously registered kernel for the same operator and the same dispatch key
+  operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()
+    registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+  dispatch key: XPU
+  previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477
+       new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())
+INFO 06-11 11:00:55 [__init__.py:239] Automatically detected platform xpu.
+[2025-06-11 11:00:56,743] [[32m    INFO[0m]: --- LOADING MODEL --- (pipeline.py:187)[0m
+[2025-06-11 11:00:57,315] [[32m    INFO[0m]: Triton not installed or not compatible; certain GPU-related functions will not be available. (importing.py:16)[0m
+[2025-06-11 11:00:57,472] [[33m WARNING[0m]: Casting torch.bfloat16 to torch.float16. (_logger.py:68)[0m
+[2025-06-11 11:00:57,473] [[32m    INFO[0m]: This model supports multiple tasks: {'classify', 'generate', 'reward', 'score', 'embed'}. Defaulting to 'generate'. (config.py:604)[0m
+[2025-06-11 11:00:57,473] [[33m WARNING[0m]: The model has a long context length (35585). This may causeOOM during the initial memory profiling phase, or result in low performance due to small KV cache size. Consider setting --max-model-len to a smaller value. (_logger.py:68)[0m
+[2025-06-11 11:00:57,474] [[32m    INFO[0m]: Disabled the custom all-reduce kernel because it is not supported on current platform. (config.py:1639)[0m
+[2025-06-11 11:00:57,476] [[32m    INFO[0m]: Initializing a V0 LLM engine (v0.8.3+ipexllm) with config: model='/llm/intelmc8/models/DeepSeek-R1-Distill-Qwen-32B', speculative_config=None, tokenizer='/llm/intelmc8/models/DeepSeek-R1-Distill-Qwen-32B', skip_tokenizer_init=False, tokenizer_mode=auto, revision=main, override_neuron_config=None, tokenizer_revision=main, trust_remote_code=True, dtype=torch.float16, max_seq_len=35585, download_dir=None, load_format=LoadFormat.AUTO, tensor_parallel_size=4, pipeline_parallel_size=1, disable_custom_all_reduce=True, quantization=None, enforce_eager=True, kv_cache_dtype=auto,  device_config=xpu, decoding_config=DecodingConfig(guided_decoding_backend='xgrammar', reasoning_backend=None), observability_config=ObservabilityConfig(show_hidden_metrics=False, otlp_traces_endpoint=None, collect_model_forward_time=False, collect_model_execute_time=False), seed=42, served_model_name=/llm/intelmc8/models/DeepSeek-R1-Distill-Qwen-32B, num_scheduler_steps=1, multi_step_stream_outputs=True, enable_prefix_caching=None, chunked_prefill_enabled=False, use_async_output_proc=False, disable_mm_preprocessor_cache=False, mm_processor_kwargs=None, pooler_config=None, compilation_config={"splitting_ops":[],"compile_sizes":[],"cudagraph_capture_sizes":[],"max_capture_size":0}, use_cached_outputs=False,  (llm_engine.py:242)[0m
+[2025-06-11 11:00:57,978] [[33m WARNING[0m]: No existing RAY instance detected. A new instance will be launched with current node resources. (_logger.py:68)[0m
+[2025-06-11 11:01:00,177] [[32m    INFO[0m]: Started a local Ray instance. (worker.py:1888)[0m
+[2025-06-11 11:01:01,151] [[32m    INFO[0m]: No current placement group found. Creating a new placement group. (ray_utils.py:339)[0m
+[2025-06-11 11:01:01,331] [[32m    INFO[0m]: use_ray_spmd_worker: False (ray_distributed_executor.py:178)[0m
+[36m(pid=12455)[0m [W611 11:01:03.939650303 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.
+[36m(pid=12455)[0m   Overriding a previously registered kernel for the same operator and the same dispatch key
+[36m(pid=12455)[0m   operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()
+[36m(pid=12455)[0m     registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6
+[36m(pid=12455)[0m   dispatch key: XPU
+[36m(pid=12455)[0m   previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477
+[36m(pid=12455)[0m        new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())
+[36m(pid=12455)[0m INFO 06-11 11:01:06 [__init__.py:239] Automatically detected platform xpu.
+[36m(WrapperWithLoadBit pid=12452)[0m INFO 06-11 11:01:07 [importing.py:16] Triton not installed or not compatible; certain GPU-related functions will not be available.
+[2025-06-11 11:01:08,719] [[32m    INFO[0m]: non_carry_over_env_vars from config: set() (ray_distributed_executor.py:354)[0m
+[2025-06-11 11:01:08,720] [[32m    INFO[0m]: Copying the following environment variables to workers: ['LD_LIBRARY_PATH', 'VLLM_RPC_TIMEOUT', 'VLLM_USE_V1', 'IPEX_LLM_LOWBIT'] (ray_distributed_executor.py:356)[0m
+[2025-06-11 11:01:08,720] [[32m    INFO[0m]: If certain env vars should NOT be copied to workers, add them to /root/.config/vllm/ray_non_carry_over_env_vars.json file (ray_distributed_executor.py:359)[0m
+[2025-06-11 11:01:08,750] [[32m    INFO[0m]: Cannot use None backend on XPU. (xpu.py:39)[0m
+[2025-06-11 11:01:08,750] [[32m    INFO[0m]: Using IPEX attention backend. (xpu.py:45)[0m
+[36m(WrapperWithLoadBit pid=12452)[0m INFO 06-11 11:01:08 [xpu.py:39] Cannot use None backend on XPU.
+[36m(WrapperWithLoadBit pid=12452)[0m INFO 06-11 11:01:08 [xpu.py:45] Using IPEX attention backend.
+[2025-06-11 11:01:09,519] [[32m    INFO[0m]: vLLM message queue communication handle: Handle(local_reader_ranks=[1, 2, 3], buffer_handle=(3, 4194304, 6, 'psm_5670ef19'), local_subscribe_addr='ipc:///tmp/02a7ac55-6cad-48a1-9c78-2e9fded8c630', remote_subscribe_addr=None, remote_addr_ipv6=False) (shm_broadcast.py:264)[0m
+[2025-06-11 11:01:09,525] [[32m    INFO[0m]: rank 0 in world size 4 is assigned as DP rank 0, PP rank 0, TP rank 0 (parallel_state.py:957)[0m
+[2025-06-11 11:01:09,530] [[32m    INFO[0m]: cudagraph sizes specified by model runner [] is overridden by config [] (config.py:3339)[0m
+[36m(WrapperWithLoadBit pid=12452)[0m INFO 06-11 11:01:09 [parallel_state.py:957] rank 1 in world size 4 is assigned as DP rank 0, PP rank 0, TP rank 1
+[36m(WrapperWithLoadBit pid=12452)[0m INFO 06-11 11:01:09 [config.py:3339] cudagraph sizes specified by model runner [] is overridden by config []
+Loading safetensors checkpoint shards:   0% Completed | 0/8 [00:00<?, ?it/s]
+Loading safetensors checkpoint shards:  12% Completed | 1/8 [00:00<00:04,  1.53it/s]
+Loading safetensors checkpoint shards:  25% Completed | 2/8 [00:01<00:04,  1.45it/s]
+Loading safetensors checkpoint shards:  38% Completed | 3/8 [00:02<00:03,  1.49it/s]
+Loading safetensors checkpoint shards:  50% Completed | 4/8 [00:02<00:02,  1.45it/s]
+Loading safetensors checkpoint shards:  62% Completed | 5/8 [00:03<00:02,  1.42it/s]
+Loading safetensors checkpoint shards:  75% Completed | 6/8 [00:04<00:01,  1.41it/s]
+Loading safetensors checkpoint shards:  88% Completed | 7/8 [00:04<00:00,  1.38it/s]
+Loading safetensors checkpoint shards: 100% Completed | 8/8 [00:05<00:00,  1.74it/s]
+Loading safetensors checkpoint shards: 100% Completed | 8/8 [00:05<00:00,  1.54it/s]
+
+[2025-06-11 11:01:15,247] [[32m    INFO[0m]: Loading weights took 5.23 seconds (loader.py:447)[0m
+[2025-06-11 11:01:15,254] [[33m WARNING[0m]: sym_int4 is deprecated, use woq_int4 instead, if you are loading saved sym_int4 low bit model, please resaved it with woq_int4 (_logger.py:68)[0m
+[2025-06-11 11:01:15,255] [[32m    INFO[0m]: Converting the current model to sym_int4 format...... (convert.py:1112)[0m
+[2025-06-11 11:01:15,255] [[32m    INFO[0m]: Only HuggingFace Transformers models are currently supported for further optimizations (convert.py:904)[0m
+[2025-06-11 11:01:24,898] [[32m    INFO[0m]: Only HuggingFace Transformers models are currently supported for further optimizations (convert.py:1312)[0m
+[36m(WrapperWithLoadBit pid=12455)[0m INFO 06-11 11:01:26 [loader.py:447] Loading weights took 16.74 seconds
+[36m(pid=12458)[0m INFO 06-11 11:01:07 [__init__.py:239] Automatically detected platform xpu.[32m [repeated 3x across cluster] (Ray deduplicates logs by default. Set RAY_DEDUP_LOGS=0 to disable log deduplication, or see https://docs.ray.io/en/master/ray-observability/user-guides/configure-logging.html#log-deduplication for more options.)[0m
+[36m(WrapperWithLoadBit pid=12458)[0m INFO 06-11 11:01:08 [importing.py:16] Triton not installed or not compatible; certain GPU-related functions will not be available.[32m [repeated 3x across cluster][0m
+[36m(WrapperWithLoadBit pid=12458)[0m INFO 06-11 11:01:08 [xpu.py:39] Cannot use None backend on XPU.[32m [repeated 2x across cluster][0m
+[36m(WrapperWithLoadBit pid=12458)[0m INFO 06-11 11:01:08 [xpu.py:45] Using IPEX attention backend.[32m [repeated 2x across cluster][0m
+[36m(WrapperWithLoadBit pid=12458)[0m INFO 06-11 11:01:09 [parallel_state.py:957] rank 3 in world size 4 is assigned as DP rank 0, PP rank 0, TP rank 3[32m [repeated 2x across cluster][0m
+[36m(WrapperWithLoadBit pid=12458)[0m INFO 06-11 11:01:09 [config.py:3339] cudagraph sizes specified by model runner [] is overridden by config [][32m [repeated 2x across cluster][0m
+[36m(WrapperWithLoadBit pid=12455)[0m 2025-06-11 11:01:26,676 - ipex_llm.transformers.utils - WARNING - sym_int4 is deprecated, use woq_int4 instead, if you are loading saved sym_int4 low bit model, please resaved it with woq_int4
+[36m(WrapperWithLoadBit pid=12455)[0m 2025-06-11 11:01:26,676 - ipex_llm.transformers.utils - INFO - Converting the current model to sym_int4 format......
+[36m(pid=12458)[0m [W611 11:01:03.969337351 OperatorEntry.cpp:154] Warning: Warning only once for all operators,  other operators may also be overridden.[32m [repeated 3x across cluster][0m
+[36m(pid=12458)[0m   Overriding a previously registered kernel for the same operator and the same dispatch key[32m [repeated 3x across cluster][0m
+[36m(pid=12458)[0m   operator: aten::_validate_compressed_sparse_indices(bool is_crow, Tensor compressed_idx, Tensor plain_idx, int cdim, int dim, int nnz) -> ()[32m [repeated 3x across cluster][0m
+[36m(pid=12458)[0m     registered at /pytorch/build/aten/src/ATen/RegisterSchema.cpp:6[32m [repeated 3x across cluster][0m
+[36m(pid=12458)[0m   dispatch key: XPU[32m [repeated 3x across cluster][0m
+[36m(pid=12458)[0m   previous kernel: registered at /pytorch/build/aten/src/ATen/RegisterCPU.cpp:30477[32m [repeated 3x across cluster][0m
+[36m(pid=12458)[0m        new kernel: registered at /build/intel-pytorch-extension/build/Release/csrc/gpu/csrc/aten/generated/ATen/RegisterXPU.cpp:468 (function operator())[32m [repeated 3x across cluster][0m
+[36m(WrapperWithLoadBit pid=12455)[0m 2025-06-11 11:01:26,677 - ipex_llm.transformers.utils - INFO - Only HuggingFace Transformers models are currently supported for further optimizations
+[2025-06-11 11:01:28,286] [[32m    INFO[0m]: Loading model weights took 4.3784 GB (model_convert.py:160)[0m
+[36m(WrapperWithLoadBit pid=12458)[0m 2025-06-11 11:01:28,833 - ipex_llm.transformers.utils - WARNING - sym_int4 is deprecated, use woq_int4 instead, if you are loading saved sym_int4 low bit model, please resaved it with woq_int4[32m [repeated 2x across cluster][0m
+[36m(WrapperWithLoadBit pid=12458)[0m 2025-06-11 11:01:28,833 - ipex_llm.transformers.utils - INFO - Converting the current model to sym_int4 format......[32m [repeated 2x across cluster][0m
+[36m(WrapperWithLoadBit pid=12455)[0m 2025-06-11 11:02:00,371 - ipex_llm.transformers.utils - INFO - Only HuggingFace Transformers models are currently supported for further optimizations[32m [repeated 3x across cluster][0m
+[36m(WrapperWithLoadBit pid=12455)[0m 2025-06-11 11:02:03,291 - ipex_llm.vllm.xpu.model_convert - INFO - Loading model weights took 4.3784 GB
+[36m(WrapperWithLoadBit pid=12452)[0m 2025-06-11 11:02:03,778 - ipex_llm.transformers.utils - INFO - Only HuggingFace Transformers models are currently supported for further optimizations
+[36m(WrapperWithLoadBit pid=12458)[0m 2025-06-11 11:02:07,872 - ipex_llm.transformers.utils - INFO - Only HuggingFace Transformers models are currently supported for further optimizations
+[36m(WrapperWithLoadBit pid=12458)[0m 2025-06-11 11:02:10,864 - ipex_llm.vllm.xpu.model_convert - INFO - Loading model weights took 4.3784 GB[32m [repeated 2x across cluster][0m
+2025:06:11-11:02:11:(11635) |CCL_WARN| value of CCL_WORKER_COUNT changed to be 2 (default:1)
+2025:06:11-11:02:11:(11635) |CCL_WARN| value of CCL_ATL_TRANSPORT changed to be ofi (default:mpi)
+2025:06:11-11:02:11:(11635) |CCL_WARN| value of CCL_ATL_SHM changed to be 1 (default:0)
+2025:06:11-11:02:11:(11635) |CCL_WARN| value of CCL_DG2_ALLREDUCE changed to be 1 (default:0)
+2025:06:11-11:02:11:(11635) |CCL_WARN| value of CCL_LOCAL_RANK changed to be 0 (default:-1)
+2025:06:11-11:02:11:(11635) |CCL_WARN| value of CCL_LOCAL_SIZE changed to be 4 (default:-1)
+2025:06:11-11:02:11:(11635) |CCL_WARN| value of CCL_PROCESS_LAUNCHER changed to be none (default:hydra)
+2025:06:11-11:02:11:(11635) |CCL_WARN| value of CCL_ZE_IPC_EXCHANGE changed to be sockets (default:pidfd)
+2025:06:11-11:02:12:(11635) |CCL_WARN| device_family is unknown, topology discovery could be incorrect, it might result in suboptimal performance
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+2025:06:11-11:02:12:(11635) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+-----> current rank: 0, world size: 4, byte_count: 364390400,is_p2p:1
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| device_family is unknown, topology discovery could be incorrect, it might result in suboptimal performance
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m 2025:06:11-11:02:12:(12452) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices
+[36m(WrapperWithLoadBit pid=12452)[0m -----> current rank: 1, world size: 4, byte_count: 364390400,is_p2p:1
+[36m(WrapperWithLoadBit pid=12458)[0m INFO 06-11 11:01:28 [loader.py:447] Loading weights took 18.85 seconds[32m [repeated 2x across cluster][0m
+[2025-06-11 11:02:28,076] [[33m WARNING[0m]: Pin memory is not supported on XPU. (_logger.py:68)[0m
+[2025-06-11 11:02:28,718] [[32m    INFO[0m]: # xpu blocks: 12263, # CPU blocks: 8192 (executor_base.py:112)[0m
+[2025-06-11 11:02:28,718] [[32m    INFO[0m]: Maximum concurrency for 35585 tokens per request: 2.76x (executor_base.py:117)[0m
+[36m(WrapperWithLoadBit pid=12452)[0m WARNING 06-11 11:02:28 [_logger.py:68] Pin memory is not supported on XPU.
+[36m(WrapperWithLoadBit pid=12458)[0m 2025:06:11-11:02:12:(12458) |CCL_WARN| device_family is unknown, topology discovery could be incorrect, it might result in suboptimal performance[32m [repeated 2x across cluster][0m
+[36m(WrapperWithLoadBit pid=12458)[0m 2025:06:11-11:02:12:(12458) |CCL_WARN| topology recognition shows PCIe connection between devices. If this is not correct, you can disable topology recognition, with CCL_TOPO_FABRIC_VERTEX_CONNECTION_CHECK=0. This will assume XeLinks across devices[32m [repeated 24x across cluster][0m
+[36m(WrapperWithLoadBit pid=12458)[0m -----> current rank: 3, world size: 4, byte_count: 364390400,is_p2p:1[32m [repeated 2x across cluster][0m
+[2025-06-11 11:02:30,626] [[32m    INFO[0m]: init engine (profile, create kv cache, warmup model) took 19.76 seconds (llm_engine.py:448)[0m
+[2025-06-11 11:02:30,698] [[32m    INFO[0m]: --- INIT SEEDS --- (pipeline.py:258)[0m
+[2025-06-11 11:02:30,698] [[32m    INFO[0m]: --- LOADING TASKS --- (pipeline.py:212)[0m
+[2025-06-11 11:02:30,698] [[33m WARNING[0m]: If you want to use extended_tasks, make sure you installed their dependencies using `pip install -e .[extended_tasks]`. (_logger.py:68)[0m
+[2025-06-11 11:02:30,701] [[32m    INFO[0m]: HuggingFaceH4/MATH-500 default (lighteval_task.py:187)[0m
+[2025-06-11 11:02:30,701] [[33m WARNING[0m]: Careful, the task lighteval|math_500 is using evaluation data to build the few shot examples. (_logger.py:68)[0m
+Generating test split: 0 examples [00:00, ? examples/s]Generating test split: 500 examples [00:00, 67602.09 examples/s]
+[2025-06-11 11:02:36,592] [[32m    INFO[0m]: --- RUNNING MODEL --- (pipeline.py:462)[0m
+[2025-06-11 11:02:36,592] [[32m    INFO[0m]: Running RequestType.GREEDY_UNTIL requests (pipeline.py:466)[0m
+[2025-06-11 11:02:36,724] [[33m WARNING[0m]: You cannot select the number of dataset splits for a generative evaluation at the moment. Automatically inferring. (_logger.py:68)[0m
+Splits:   0%|          | 0/1 [00:00<?, ?it/s]
+Processed prompts:   0%|          | 0/2000 [00:00<?, ?it/s, est. speed input: 0.00 toks/s, output: 0.00 toks/s][A
+Processed prompts:   0%|          | 4/2000 [04:20<36:04:37, 65.07s/it, est. speed input: 13.34 toks/s, output: 34.65 toks/s][A
+Processed prompts:   0%|          | 8/2000 [12:33<54:57:04, 99.31s/it, est. speed input: 8.73 toks/s, output: 40.26 toks/s] [A
+Processed prompts:   1%|          | 12/2000 [22:18<66:42:42, 120.81s/it, est. speed input: 7.14 toks/s, output: 39.25 toks/s][A
+Processed prompts:   1%|          | 16/2000 [31:39<70:46:52, 128.43s/it, est. speed input: 6.16 toks/s, output: 38.28 toks/s][A
+Processed prompts:   1%|          | 20/2000 [36:43<60:13:43, 109.51s/it, est. speed input: 6.08 toks/s, output: 40.25 toks/s][A
+Processed prompts:   1%|          | 24/2000 [39:22<47:04:43, 85.77s/it, est. speed input: 6.38 toks/s, output: 40.24 toks/s] [A
+Processed prompts:   1%|▏         | 28/2000 [45:20<47:41:38, 87.07s/it, est. speed input: 6.05 toks/s, output: 39.63 toks/s][A
+Processed prompts:   2%|▏         | 32/2000 [59:55<70:28:33, 128.92s/it, est. speed input: 4.98 toks/s, output: 39.91 toks/s][A
+Processed prompts:   2%|▏         | 36/2000 [1:03:13<56:48:37, 104.13s/it, est. speed input: 5.16 toks/s, output: 40.18 toks/s][A
+Processed prompts:   2%|▏         | 40/2000 [1:22:55<88:50:31, 163.18s/it, est. speed input: 4.19 toks/s, output: 39.45 toks/s][A
+Processed prompts:   2%|▏         | 44/2000 [1:32:03<84:18:20, 155.16s/it, est. speed input: 4.00 toks/s, output: 40.34 toks/s][A
+Processed prompts:   2%|▏         | 48/2000 [1:38:37<74:48:02, 137.95s/it, est. speed input: 3.96 toks/s, output: 40.43 toks/s][A
+Processed prompts:   3%|▎         | 52/2000 [1:41:33<59:14:01, 109.47s/it, est. speed input: 4.01 toks/s, output: 40.36 toks/s][A
+Processed prompts:   3%|▎         | 56/2000 [1:48:42<58:45:59, 108.83s/it, est. speed input: 3.89 toks/s, output: 40.20 toks/s][A
+Processed prompts:   3%|▎         | 60/2000 [1:49:31<42:57:19, 79.71s/it, est. speed input: 4.10 toks/s, output: 40.54 toks/s] [A
+Processed prompts:   3%|▎         | 64/2000 [1:55:07<43:33:44, 81.00s/it, est. speed input: 4.08 toks/s, output: 40.21 toks/s][A
+Processed prompts:   3%|▎         | 68/2000 [2:05:19<55:05:56, 102.67s/it, est. speed input: 3.91 toks/s, output: 39.44 toks/s][A
+Processed prompts:   4%|▎         | 72/2000 [2:12:46<56:26:16, 105.38s/it, est. speed input: 3.79 toks/s, output: 37.70 toks/s][A
+Processed prompts:   4%|▍         | 76/2000 [2:14:19<43:07:01, 80.68s/it, est. speed input: 3.91 toks/s, output: 40.36 toks/s] [A
+Processed prompts:   4%|▍         | 80/2000 [2:22:34<49:57:36, 93.68s/it, est. speed input: 3.79 toks/s, output: 40.06 toks/s][A
